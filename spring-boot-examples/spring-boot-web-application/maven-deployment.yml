@@ -24,3 +24,6 @@ spec:
           requests:
             cpu: "1"
             memory: 1536Mi
+        envFrom:
+        - configMapRef:
+            name: spring-config
